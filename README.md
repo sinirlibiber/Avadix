@@ -10,15 +10,15 @@
 [![Built with](https://img.shields.io/badge/Built%20with-React%20%2B%20Vite-61DAFB)]()
 [![TypeScript](https://img.shields.io/badge/TypeScript-97.9%25-3178C6)]()
 
-> Built with ❤️ by **Avadix Labs** for the **Avalanche Build Games 2026**
+> Built with  by **Avadix Labs** for the **Avalanche Build Games 2026**
 
-[Live Demo](https://avalanche-prediction-market--mardinli4047.replit.app) · · [Docs](docs.avax.network) · [Report Bug](https://github.com/sinirlibiber/Avadix/issues)
+[Live Demo](https://avalanche-prediction-market--mardinli4047.replit.app) ·  [Docs](https://build.avax.network/docs/primary-network) · [Report Bug](https://github.com/sinirlibiber/Avadix/issues)
 
 </div>
 
 ---
 
-## 📌 What is Avadix?
+##  What is Avadix?
 
 Avadix is a **decentralized prediction market and community funding platform** built on the Avalanche C-Chain. It brings together two powerful primitives:
 
@@ -29,26 +29,26 @@ All of this in one sleek, Web3-native interface — fast, cheap, and trustless t
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔮 Prediction Markets
+###  Prediction Markets
 - Binary YES/NO outcomes across Crypto, Politics, Sports, and Tech categories
 - AMM-based pricing with real-time price discovery (0–100¢ range)
 - Glassmorphic UI with inline trading forms and live updates
 
-### 🌱 Community Campaigns
+###  Community Campaigns
 - Create and support impact-driven funding campaigns
 - All contributions tracked transparently on-chain
 - Quick-Donate presets: **0.5 AVAX**, **1 AVAX**, **5 AVAX**
 
-### 🛡️ Web3 Native
+###  Web3 Native
 - WalletConnect integration — MetaMask, Core, and Rabby supported via Web3Modal
 - Optimized for **Avalanche Fuji Testnet** (Chain ID: `43113`)
 - Sub-second finality and ultra-low transaction costs
 
 ---
 
-## 🚀 Tech Stack
+##  Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -61,7 +61,7 @@ All of this in one sleek, Web3-native interface — fast, cheap, and trustless t
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────┐
@@ -125,7 +125,7 @@ WALLETCONNECT_PROJECT_ID=your_project_id_here
 
 ---
 
-## ⛓️ Smart Contract
+##  Smart Contract
 
 The platform interfaces with a Prediction Market contract deployed on Avalanche Fuji.
 
@@ -151,7 +151,7 @@ Avadix/
 
 ---
 
-## 🗺️ Roadmap
+##  Roadmap
 
 - [x] AMM-based binary prediction markets
 - [x] WalletConnect wallet integration
