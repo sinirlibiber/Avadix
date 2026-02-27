@@ -1,6 +1,6 @@
 # Avadix Protocol 🔺
 
-Avadix is a decentralized prediction market and community funding platform built on the **Avalanche (AVAX)** network. It combines the thrill of binary prediction markets (Polymarket-style) with a transparent, blockchain-powered donation system.
+Avadix is a decentralized prediction market and community funding platform built on the **Avalanche (AVAX)** network. It combines the thrill of binary prediction markets with a transparent, blockchain-powered donation system.
 
 
 ## 🌟 Features
