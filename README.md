@@ -12,7 +12,7 @@
 
 > Built with ❤️ by **Avadix Labs** for the **Avalanche Build Games 2026**
 
-[Live Demo](#) · [Smart Contract](#-smart-contract) · [Docs](#-getting-started) · [Report Bug](https://github.com/sinirlibiber/Avadix/issues)
+[Live Demo]([#](https://avalanche-prediction-market--mardinli4047.replit.app) · · [Docs](docs.avax.network) · [Report Bug](https://github.com/sinirlibiber/Avadix/issues)
 
 </div>
 
