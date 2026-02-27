@@ -1,0 +1,53 @@
+reate a Polymarket-style prediction market dApp called "AVAX Predict" for Avalanche Build Games 2026 competition.
+
+REQUIREMENTS:
+
+Tech Stack:
+- Next.js 14 with App Router
+- TypeScript
+- Avalanche C-Chain (Fuji testnet)
+- Wagmi v2 + Viem for Web3
+- Web3Modal (@web3modal/wagmi) for wallet connection
+- Tailwind CSS + shadcn/ui components
+- Solidity 0.8.20 for smart contracts
+
+Smart Contract (PredictionMarket.sol):
+- Binary prediction markets (YES/NO)
+- AMM-based pricing (constant product formula)
+- Functions: createMarket, buyShares, sellShares, resolveMarket, claimWinnings
+- 2% platform fee
+- Market struct: question, description, category, endTime, resolutionTime, yesLiquidity, noLiquidity, totalVolume
+- Calculate share prices using: yesPrice = (yesLiquidity / totalLiquidity) * 100
+
+Frontend Features:
+- Home page: Display all active markets in cards
+- Each market card shows: question, YES/NO prices (0-100¢), volume, time remaining, category badge
+- Click "Trade" button to expand inline buy form
+- Buy form: YES/NO toggle buttons, amount input, execute trade
+- Create Market button (opens modal): question, description, category dropdown, end date, resolution date, initial liquidity (min 0.2 AVAX)
+- Stats bar: Total markets, 24h volume, total traders
+- Category filters: All, Politics, Sports, Crypto
+- Real-time price updates after trades
+
+UI/UX Design:
+- Dark theme: gradient background (indigo-950 to purple-950)
+- Polymarket-inspired clean layout
+- Green for YES (prices, buttons), Red for NO
+- Price displayed as ¢ (cents, 0-100 scale)
+- Progress bar showing YES/NO distribution
+- Glassmorphism effects on cards
+- Responsive mobile-first design
+
+Configuration:
+- Support Avalanche Fuji Testnet (Chain ID: 43113)
+- RPC: https://api.avax-test.network/ext/bc/C/rpc
+- Contract deployment instructions in README
+- Environment variables for contract address
+
+Additional:
+- Add toast notifications (sonner)
+- Loading states for all transactions
+- Error handling for failed transactions
+- README with setup instructions, contract deployment guide, and competition submission details
+
+Make it production-ready, well-commented, and impressive for judges. Focus on clean code, smooth UX, and showcase Avalanche's speed.
